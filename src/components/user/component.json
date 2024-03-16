@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_user_components",
+  "info": {
+    "displayName": "component",
+    "icon": "play"
+  },
+  "options": {},
+  "attributes": {
+    "a": {
+      "type": "string"
+    }
+  }
+}

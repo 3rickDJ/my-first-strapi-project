@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "scores",
+  "info": {
+    "singularName": "score",
+    "pluralName": "scores",
+    "displayName": "score"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "score": {
+      "type": "float"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}
