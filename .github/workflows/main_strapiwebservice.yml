@@ -20,6 +20,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18.x'
+          cache: 'npm'
 
       - name: npm install, build, and test
         run: |
@@ -53,7 +54,7 @@ jobs:
 
       - name: Unzip artifact for deployment
         run: unzip release.zip
-      
+
       - name: Login to Azure
         uses: azure/login@v1
         with:
@@ -68,4 +69,4 @@ jobs:
           app-name: 'strapiWebService'
           slot-name: 'Production'
           package: .
-          
+
