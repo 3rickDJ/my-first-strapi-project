@@ -68,5 +68,5 @@ jobs:
         with:
           app-name: 'strapiWebService'
           slot-name: 'Production'
-          package: ./realease.zip
+          package: ./release.zip
 
